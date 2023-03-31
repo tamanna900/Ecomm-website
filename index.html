@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandzo | Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+  <div class="header">
+    
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+         <a href="index.html"></a><img src="images ecomm/logo.jpg" width="125px"></div>
+      </div>   
+  
+      <nav>
+       <ul id="MenuItems">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="products.html"> Products</a></li>
+          <li><a href="product-details"> About</a></li>
+          <li><a href="cart.html"> Contact</a></li>
+          <li><a href="account.html"> Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="images ecomm/cart2.jpeg" width="30 px" height="30px"></a>
+      <img src="images ecomm/menu-icon.jpeg" class="menu-icon" onclick="menutoggle()">
+     </div>
+     <div class="row">
+      <div class="col-2">
+        <h1>Give your workout <br>a new style!</h1>
+        <p> Success isnt always about greatness. Its about consistency.
+          Consistent<br> hardwork gains success.Greatnesss will come.
+        </p>
+        <a href="" class="btn"> Explore Now &#8594</a>
+        </div>
+       <div class=" col2">
+          <img src="images ecomm/tradition.jpg">
+       </div>
+
+      </div>
+     </div> 
+    </div> 
+<!---------featured categories----------->
+<div class="categories">
+  <div class="small-container">
+   <div class="row">
+     <div class="col-3">
+        <img src="images ecomm/category1.jpeg">
+     </div>
+     <div class="col-3">
+        <img src ="images ecomm/category 2.jpg">
+     </div>
+     <div class="col-3">
+        <img src="images ecomm/category3.jpeg">
+     </div>
+   </div>
+   </div>
+   <!------------featured products--------->
+   <div class="small-container">
+    <h2 class="title"> Featured products</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="product-details.html"><img src="images ecomm/red.jpeg"></a>
+        <a href="product-details.html"><h4>Red Printed Tshirt</h4></a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images ecomm/blue.jpeg">
+        <h4>Blue jeans</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images ecomm/shoes.jpeg">
+        <h4>Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images ecomm/shirt.jpeg">
+        <h4>Blue Check shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    </div>
+    <h2 class="title"> Latest products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images ecomm/shoes1.jpeg">
+        <h4>Waan Sport Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images ecomm/purse.jpeg">
+        <h4>Purse</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images ecomm/watch.jpeg">
+        <h4>Apple watch Series</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images ecomm/watch1.jpeg">
+        <h4>Titan Watch</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images ecomm/light.jpeg">
+          <h4>Light blue jeans for men</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images ecomm/purple.jpeg">
+          <h4>Purple wide pant</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images ecomm/green.jpeg">
+          <h4>Slim fit shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images ecomm/top.jpeg">
+          <h4>Top</h4>
+          <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+<!----------------offer------------------------->
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-2">
+        <img src="images ecomm/exclusive1.jpeg" class="offer-img">
+      </div>
+      <div class="col-2">
+        <p> Exclusively available on Brandzo</p>
+        <h1> Smart Luxury Band</h1>
+        <small> The Luxury band features 40% larger
+           (than Mi band 3) AMOLDED color full screen display
+            with adjusatble brightness ,so everything is clear 
+          and durability and water resistant.</small><br>
+          <a href="" class="btn">Buy Now &#8594;</a>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+</div>
+<!----------------testimonial---------------->
+<div class="testimonial">
+  <div class="row">
+   
+    <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p> </p>
+      <div class="rating">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <img src="images ecomm/girl.jpeg">
+      <h3> Sean Parker</h3>
+    </div>
+    <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p> </p>
+      <div class="rating">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <img src="images ecomm/user2.jpeg">
+      <h3> Cherrish</h3>
+    </div>
+    <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p> </p>
+      <div class="rating">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <img src="images ecomm/user3.jpeg">
+      <h3> Denia</h3>
+    </div>
+  </div>
+</div>
+<!-----------------------brands------------------>
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <img src="images ecomm/oppo.jpeg">
+      </div>
+      <div class="col-5">
+        <img src="images ecomm/paypal.jpeg">
+      </div>
+      <div class="col-5">
+        <img src="images ecomm/coca.jpeg">
+      </div>
+   
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------footer---------------------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download our App</h3>
+        <p>Download App for Android and ios mobile phone.</p>
+        <div class="app-logo">
+          <img src="images ecomm/playstore.jpeg">
+          <img src="images ecomm/appstore.jpeg">
+
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="images ecomm/logo.jpg"
+        <p>Our purpose is to Sustainably make the pleasure and 
+          benefits of Sports Accesible to the many.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li> Retrn Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li> Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright"> Copyright</p>
+  </div>
+</div>
+<!------------------js for toggle menu------------------->
+<script>
+  var MenuItems=document.getElementById("MenuItems");
+  MenuItems.style.maxHeight="0px";
+  function menutoggle(){
+    if (MenuItems.style.maxHeight="0px")
+    { MenuItems.style.maxHeight="200px"}
+    else{
+      MenuItems.style.maxHeight="0px"
+    }
+  }
+</script>
+
+
+</body>
+</html>
